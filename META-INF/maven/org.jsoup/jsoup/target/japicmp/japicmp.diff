@@ -1,0 +1,1700 @@
+Comparing source compatibility of C:\Users\kunik\OneDrive\Documents\zeotapassignment\META-INF\maven\org.jsoup\jsoup\target\jsoup-1.18.3.jar against C:\Users\kunik\.m2\repository\org\jsoup\jsoup\1.18.2\jsoup-1.18.2.jar
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.Connection auth(org.jsoup.helper.RequestAuthenticator)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection cookie(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection cookies(java.util.Map<java.lang.String,java.lang.String>)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection cookieStore(java.net.CookieStore)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.net.CookieStore cookieStore()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection data(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection data(java.lang.String, java.lang.String, java.io.InputStream)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection data(java.lang.String, java.lang.String, java.io.InputStream, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection data(java.util.Collection<org.jsoup.Connection$KeyVal>)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection data(java.util.Map<java.lang.String,java.lang.String>)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection data(java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$KeyVal data(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Response execute()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection followRedirects(boolean)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.nodes.Document get()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection header(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection headers(java.util.Map<java.lang.String,java.lang.String>)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection ignoreContentType(boolean)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection ignoreHttpErrors(boolean)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection maxBodySize(int)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection method(org.jsoup.Connection$Method)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection newRequest()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.Connection newRequest(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.Connection newRequest(java.net.URL)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.Connection onResponseProgress(org.jsoup.Progress<org.jsoup.Connection$Response>)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection parser(org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.nodes.Document post()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection postDataCharset(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection proxy(java.net.Proxy)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection proxy(java.lang.String, int)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection referrer(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request request()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection request(org.jsoup.Connection$Request)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection requestBody(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Response response()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection response(org.jsoup.Connection$Response)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection sslSocketFactory(javax.net.ssl.SSLSocketFactory)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection timeout(int)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection url(java.net.URL)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection url(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection userAgent(java.lang.String)
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) STATIC(-) org.jsoup.Connection$Base  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	GENERIC TEMPLATES: --- T:org.jsoup.Connection$Base<T>
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Base addHeader(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String cookie(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Base cookie(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.util.Map<java.lang.String,java.lang.String> cookies()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean hasCookie(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean hasHeader(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean hasHeaderWithValue(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String header(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Base header(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.util.List<java.lang.String> headers(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.util.Map<java.lang.String,java.lang.String> headers()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Method method()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Base method(org.jsoup.Connection$Method)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.util.Map<java.lang.String,java.util.List<java.lang.String>> multiHeaders()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Base removeCookie(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Base removeHeader(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.net.URL url()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Base url(java.net.URL)
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) STATIC(-) org.jsoup.Connection$KeyVal  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$KeyVal contentType(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String contentType()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean hasInputStream()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$KeyVal inputStream(java.io.InputStream)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.io.InputStream inputStream()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$KeyVal key(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String key()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$KeyVal value(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String value()
+---! REMOVED ENUM: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.constant.Constable
+	---! REMOVED INTERFACE: java.lang.Comparable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.Enum
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method TRACE
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method HEAD
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method DELETE
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method POST
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method GET
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method OPTIONS
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method PUT
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.Connection$Method PATCH
+	---! REMOVED METHOD: PUBLIC(-) FINAL(-) boolean hasBody()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.Connection$Method valueOf(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.Connection$Method[] values()
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) STATIC(-) org.jsoup.Connection$Request  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: org.jsoup.Connection$Base
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request auth(org.jsoup.helper.RequestAuthenticator)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.RequestAuthenticator auth()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request data(org.jsoup.Connection$KeyVal)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.util.Collection<org.jsoup.Connection$KeyVal> data()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean followRedirects()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request followRedirects(boolean)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean ignoreContentType()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request ignoreContentType(boolean)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean ignoreHttpErrors()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request ignoreHttpErrors(boolean)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) int maxBodySize()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request maxBodySize(int)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request parser(org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.parser.Parser parser()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request postDataCharset(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String postDataCharset()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.net.Proxy proxy()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request proxy(java.net.Proxy)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request proxy(java.lang.String, int)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request requestBody(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String requestBody()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) javax.net.ssl.SSLSocketFactory sslSocketFactory()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) void sslSocketFactory(javax.net.ssl.SSLSocketFactory)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) int timeout()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Request timeout(int)
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) STATIC(-) org.jsoup.Connection$Response  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: org.jsoup.Connection$Base
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String body()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) byte[] bodyAsBytes()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.io.BufferedInputStream bodyStream()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Response bufferUp()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String charset()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.Connection$Response charset(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String contentType()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.nodes.Document parse()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) int statusCode()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String statusMessage()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.StreamParser streamParser()
+		---  REMOVED EXCEPTION: java.io.IOException
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) org.jsoup.helper.ChangeNotifyingArrayList  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	GENERIC TEMPLATES: --- E:java.lang.Object
+	---! REMOVED INTERFACE: java.util.RandomAccess
+	---! REMOVED INTERFACE: java.util.List
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED INTERFACE: java.util.Collection
+	---! REMOVED INTERFACE: java.util.SequencedCollection
+	---! REMOVED INTERFACE: java.lang.Iterable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.util.ArrayList
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) ChangeNotifyingArrayList(int)
+	---! REMOVED METHOD: PUBLIC(-) boolean add(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) void add(int, java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) boolean addAll(java.util.Collection<? extends E>)
+	---! REMOVED METHOD: PUBLIC(-) boolean addAll(int, java.util.Collection<? extends E>)
+	---! REMOVED METHOD: PUBLIC(-) void clear()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) void onContentsChanged()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Object remove(int)
+	---! REMOVED METHOD: PUBLIC(-) boolean remove(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) boolean removeAll(java.util.Collection<?>)
+	---! REMOVED METHOD: PROTECTED(-) void removeRange(int, int)
+	---! REMOVED METHOD: PUBLIC(-) boolean retainAll(java.util.Collection<?>)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Object set(int, java.lang.Object)
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.helper.DataUtil  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.nio.charset.Charset UTF_8
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document load(java.io.File, java.lang.String, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document load(java.io.File, java.lang.String, java.lang.String, org.jsoup.parser.Parser)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document load(java.nio.file.Path, java.lang.String, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document load(java.nio.file.Path, java.lang.String, java.lang.String, org.jsoup.parser.Parser)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document load(java.io.InputStream, java.lang.String, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document load(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.nio.ByteBuffer readToByteBuffer(java.io.InputStream, int)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.StreamParser streamParser(java.nio.file.Path, java.nio.charset.Charset, java.lang.String, org.jsoup.parser.Parser)
+		---  REMOVED EXCEPTION: java.io.IOException
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.helper.HttpConnection  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: org.jsoup.Connection
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String MULTIPART_FORM_DATA
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String CONTENT_TYPE
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String DEFAULT_UA
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String FORM_URL_ENCODED
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String CONTENT_ENCODING
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) HttpConnection()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection auth(org.jsoup.helper.RequestAuthenticator)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.Connection connect(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.Connection connect(java.net.URL)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection cookie(java.lang.String, java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection cookies(java.util.Map<java.lang.String,java.lang.String>)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection cookieStore(java.net.CookieStore)
+	---  REMOVED METHOD: PUBLIC(-) java.net.CookieStore cookieStore()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection data(java.lang.String, java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection data(java.lang.String, java.lang.String, java.io.InputStream)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection data(java.lang.String, java.lang.String, java.io.InputStream, java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection data(java.util.Map<java.lang.String,java.lang.String>)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection data(java.lang.String[])
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection data(java.util.Collection<org.jsoup.Connection$KeyVal>)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$KeyVal data(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Response execute()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection followRedirects(boolean)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document get()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection header(java.lang.String, java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection headers(java.util.Map<java.lang.String,java.lang.String>)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection ignoreContentType(boolean)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection ignoreHttpErrors(boolean)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection maxBodySize(int)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection method(org.jsoup.Connection$Method)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection newRequest()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection onResponseProgress(org.jsoup.Progress<org.jsoup.Connection$Response>)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection parser(org.jsoup.parser.Parser)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document post()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection postDataCharset(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection proxy(java.net.Proxy)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection proxy(java.lang.String, int)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection referrer(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request request()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection request(org.jsoup.Connection$Request)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection requestBody(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Response response()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection response(org.jsoup.Connection$Response)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection sslSocketFactory(javax.net.ssl.SSLSocketFactory)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection timeout(int)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection url(java.net.URL)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection url(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection userAgent(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.helper.HttpConnection$KeyVal  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: org.jsoup.Connection$KeyVal
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$KeyVal contentType(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String contentType()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.helper.HttpConnection$KeyVal create(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.helper.HttpConnection$KeyVal create(java.lang.String, java.lang.String, java.io.InputStream)
+	---  REMOVED METHOD: PUBLIC(-) boolean hasInputStream()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$KeyVal inputStream(java.io.InputStream)
+	---  REMOVED METHOD: PUBLIC(-) java.io.InputStream inputStream()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$KeyVal key(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String key()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$KeyVal value(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String value()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.helper.HttpConnection$Request  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: org.jsoup.Connection$Base
+	---! REMOVED INTERFACE: org.jsoup.Connection$Request
+	---! REMOVED SUPERCLASS: org.jsoup.helper.HttpConnection$Base
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request auth(org.jsoup.helper.RequestAuthenticator)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.helper.RequestAuthenticator auth()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$Request data(org.jsoup.Connection$KeyVal)
+	---  REMOVED METHOD: PUBLIC(-) java.util.Collection<org.jsoup.Connection$KeyVal> data()
+	---  REMOVED METHOD: PUBLIC(-) boolean followRedirects()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request followRedirects(boolean)
+	---  REMOVED METHOD: PUBLIC(-) boolean ignoreContentType()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request ignoreContentType(boolean)
+	---  REMOVED METHOD: PUBLIC(-) boolean ignoreHttpErrors()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request ignoreHttpErrors(boolean)
+	---  REMOVED METHOD: PUBLIC(-) int maxBodySize()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request maxBodySize(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$Request parser(org.jsoup.parser.Parser)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Parser parser()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request postDataCharset(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String postDataCharset()
+	---  REMOVED METHOD: PUBLIC(-) java.net.Proxy proxy()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$Request proxy(java.net.Proxy)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$Request proxy(java.lang.String, int)
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Request requestBody(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String requestBody()
+	---  REMOVED METHOD: PUBLIC(-) javax.net.ssl.SSLSocketFactory sslSocketFactory()
+	---  REMOVED METHOD: PUBLIC(-) void sslSocketFactory(javax.net.ssl.SSLSocketFactory)
+	---  REMOVED METHOD: PUBLIC(-) int timeout()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$Request timeout(int)
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.helper.HttpConnection$Response  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: org.jsoup.Connection$Response
+	---! REMOVED INTERFACE: org.jsoup.Connection$Base
+	---! REMOVED SUPERCLASS: org.jsoup.helper.HttpConnection$Base
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String body()
+	---  REMOVED METHOD: PUBLIC(-) byte[] bodyAsBytes()
+	---  REMOVED METHOD: PUBLIC(-) java.io.BufferedInputStream bodyStream()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.Connection$Response bufferUp()
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String charset()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.HttpConnection$Response charset(java.lang.String)
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String contentType()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document parse()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---  REMOVED METHOD: PUBLIC(-) int statusCode()
+	---  REMOVED METHOD: PUBLIC(-) java.lang.String statusMessage()
+	---  REMOVED METHOD: PUBLIC(-) org.jsoup.parser.StreamParser streamParser()
+		---  REMOVED EXCEPTION: java.io.IOException
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) org.jsoup.helper.RequestAuthenticator  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.net.PasswordAuthentication authenticate(org.jsoup.helper.RequestAuthenticator$Context)
+	---  REMOVED ANNOTATION: java.lang.FunctionalInterface
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.helper.RequestAuthenticator$Context  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) java.net.PasswordAuthentication credentials(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean isProxy()
+	---! REMOVED METHOD: PUBLIC(-) boolean isServer()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String realm()
+	---! REMOVED METHOD: PUBLIC(-) java.net.Authenticator$RequestorType type()
+	---! REMOVED METHOD: PUBLIC(-) java.net.URL url()
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.helper.Validate  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.Object ensureNotNull(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.Object ensureNotNull(java.lang.Object, java.lang.String, java.lang.Object[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void fail(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void fail(java.lang.String, java.lang.Object[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void isFalse(boolean)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void isFalse(boolean, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void isTrue(boolean)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void isTrue(boolean, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void noNullElements(java.lang.Object[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void noNullElements(java.lang.Object[], java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void notEmpty(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void notEmpty(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void notEmptyParam(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void notNull(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void notNull(java.lang.Object, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void notNullParam(java.lang.Object, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void wtf(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.helper.ValidationException  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.IllegalArgumentException
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String Validator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) ValidationException(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Throwable fillInStackTrace()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.helper.W3CDom  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String XPathFactoryProperty
+	---! REMOVED FIELD: PROTECTED(-) javax.xml.parsers.DocumentBuilderFactory factory
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String SourceProperty
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) W3CDom()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String asString(org.w3c.dom.Document, java.util.Map<java.lang.String,java.lang.String>)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String asString(org.w3c.dom.Document)
+	---! REMOVED METHOD: PUBLIC(-) org.w3c.dom.Node contextNode(org.w3c.dom.Document)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.w3c.dom.Document convert(org.jsoup.nodes.Document)
+	---! REMOVED METHOD: PUBLIC(-) void convert(org.jsoup.nodes.Document, org.w3c.dom.Document)
+	---! REMOVED METHOD: PUBLIC(-) void convert(org.jsoup.nodes.Element, org.w3c.dom.Document)
+	---! REMOVED METHOD: PUBLIC(-) org.w3c.dom.Document fromJsoup(org.jsoup.nodes.Document)
+	---! REMOVED METHOD: PUBLIC(-) org.w3c.dom.Document fromJsoup(org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) boolean namespaceAware()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.helper.W3CDom namespaceAware(boolean)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.HashMap<java.lang.String,java.lang.String> OutputHtml()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.HashMap<java.lang.String,java.lang.String> OutputXml()
+	---! REMOVED METHOD: PUBLIC(-) org.w3c.dom.NodeList selectXpath(java.lang.String, org.w3c.dom.Document)
+	---! REMOVED METHOD: PUBLIC(-) org.w3c.dom.NodeList selectXpath(java.lang.String, org.w3c.dom.Node)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<T> sourceNodes(org.w3c.dom.NodeList, java.lang.Class<T>)
+		GENERIC TEMPLATES: --- T:org.jsoup.nodes.Node
+---! REMOVED CLASS: PROTECTED(-) STATIC(-) org.jsoup.helper.W3CDom$W3CBuilder  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: org.jsoup.select.NodeVisitor
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) W3CDom$W3CBuilder(org.w3c.dom.Document)
+	---  REMOVED METHOD: PUBLIC(-) void head(org.jsoup.nodes.Node, int)
+	---  REMOVED METHOD: PUBLIC(-) void tail(org.jsoup.nodes.Node, int)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.HttpStatusException  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.io.IOException
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) HttpStatusException(java.lang.String, int, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) int getStatusCode()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getUrl()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.internal.ControllableInputStream  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.io.Closeable
+	---! REMOVED INTERFACE: java.lang.AutoCloseable
+	---! REMOVED SUPERCLASS: java.io.FilterInputStream
+	---! REMOVED METHOD: PUBLIC(-) void allowClose(boolean)
+	---! REMOVED METHOD: PUBLIC(-) boolean baseReadFully()
+	---! REMOVED METHOD: PUBLIC(-) void close()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) java.io.BufferedInputStream inputStream()
+	---! REMOVED METHOD: PUBLIC(-) void mark(int)
+	---! REMOVED METHOD: PUBLIC(-) int max()
+	---! REMOVED METHOD: PUBLIC(-) void max(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.internal.ControllableInputStream onProgress(int, org.jsoup.Progress<ProgressContext>, java.lang.Object)
+		GENERIC TEMPLATES: --- ProgressContext:java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) int read(byte[], int, int)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.nio.ByteBuffer readToByteBuffer(java.io.InputStream, int)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) void reset()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.internal.ControllableInputStream timeout(long, long)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.internal.ControllableInputStream wrap(java.io.InputStream, int)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.internal.ControllableInputStream wrap(java.io.InputStream, int, int)
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.internal.Functions  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.function.Function<T,java.util.IdentityHashMap<K,V>> identityMapFunction()
+		GENERIC TEMPLATES: --- K:java.lang.Object, --- T:java.lang.Object, --- V:java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.function.Function<T,java.util.List<U>> listFunction()
+		GENERIC TEMPLATES: --- T:java.lang.Object, --- U:java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.function.Function<T,java.util.Map<K,V>> mapFunction()
+		GENERIC TEMPLATES: --- K:java.lang.Object, --- T:java.lang.Object, --- V:java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.function.Function<T,java.util.Set<U>> setFunction()
+		GENERIC TEMPLATES: --- T:java.lang.Object, --- U:java.lang.Object
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.internal.Normalizer  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Normalizer()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String lowerCase(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String normalize(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String normalize(java.lang.String, boolean)
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.internal.SharedConstants  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) int DefaultBufferSize
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String EndRangeKey
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String UserDataKey
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String AttrRangeKey
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String[] FormSubmitTags
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String RangeKey
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.internal.SoftPool  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	GENERIC TEMPLATES: --- T:java.lang.Object
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) SoftPool(java.util.function.Supplier<T>)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Object borrow()
+	---! REMOVED METHOD: PUBLIC(-) void release(java.lang.Object)
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.internal.StringUtil  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) StringUtil()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void appendNormalisedWhitespace(java.lang.StringBuilder, java.lang.String, boolean)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.StringBuilder borrowBuilder()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean in(java.lang.String, java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean inSorted(java.lang.String, java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isActuallyWhitespace(int)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isAscii(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isBlank(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isInvisibleChar(int)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isNumeric(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isWhitespace(int)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String join(java.util.Collection<?>, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String join(java.util.Iterator<?>, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String join(java.lang.String[], java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.stream.Collector<java.lang.CharSequence,?,java.lang.String> joining(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String normaliseWhitespace(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String padding(int)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String padding(int, int)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String releaseBuilder(java.lang.StringBuilder)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.net.URL resolve(java.net.URL, java.lang.String)
+		---  REMOVED EXCEPTION: java.net.MalformedURLException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String resolve(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean startsWithNewline(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.internal.StringUtil$StringJoiner  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) StringUtil$StringJoiner(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.internal.StringUtil$StringJoiner add(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.internal.StringUtil$StringJoiner append(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String complete()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.Jsoup  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String clean(java.lang.String, java.lang.String, org.jsoup.safety.Safelist)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String clean(java.lang.String, org.jsoup.safety.Safelist)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String clean(java.lang.String, java.lang.String, org.jsoup.safety.Safelist, org.jsoup.nodes.Document$OutputSettings)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.Connection connect(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isValid(java.lang.String, org.jsoup.safety.Safelist)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.Connection newSession()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.lang.String, java.lang.String, org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.lang.String, org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.io.File, java.lang.String, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.io.File, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.io.File)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.io.File, java.lang.String, java.lang.String, org.jsoup.parser.Parser)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.nio.file.Path, java.lang.String, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.nio.file.Path, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.nio.file.Path)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.nio.file.Path, java.lang.String, java.lang.String, org.jsoup.parser.Parser)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.io.InputStream, java.lang.String, java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.io.InputStream, java.lang.String, java.lang.String, org.jsoup.parser.Parser)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.net.URL, int)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parseBodyFragment(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parseBodyFragment(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.Attribute  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.util.Map$Entry
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Attribute(java.lang.String, java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Attribute(java.lang.String, java.lang.String, org.jsoup.nodes.Attributes)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attribute clone()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Attribute createFromEncoded(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean equals(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getKey()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String getValidKey(java.lang.String, org.jsoup.nodes.Document$OutputSettings$Syntax)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getValue()
+	---! REMOVED METHOD: PUBLIC(-) boolean hasDeclaredValue()
+	---! REMOVED METHOD: PUBLIC(-) int hashCode()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String html()
+	---! REMOVED METHOD: PROTECTED(-) void html(java.lang.Appendable, org.jsoup.nodes.Document$OutputSettings)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PROTECTED(-) STATIC(-) void html(java.lang.String, java.lang.String, java.lang.Appendable, org.jsoup.nodes.Document$OutputSettings)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isBooleanAttribute(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) boolean isDataAttribute()
+	---! REMOVED METHOD: PROTECTED(-) STATIC(-) boolean isDataAttribute(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) void setKey(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String setValue(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) FINAL(-) boolean shouldCollapseAttribute(org.jsoup.nodes.Document$OutputSettings)
+	---! REMOVED METHOD: PROTECTED(-) STATIC(-) boolean shouldCollapseAttribute(java.lang.String, java.lang.String, org.jsoup.nodes.Document$OutputSettings)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range$AttributeRange sourceRange()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.Attributes  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED INTERFACE: java.lang.Iterable
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED FIELD: PROTECTED(-) STATIC(-) FINAL(-) java.lang.String dataPrefix
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Attributes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes add(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) void addAll(org.jsoup.nodes.Attributes)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.Attribute> asList()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attribute attribute(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes clone()
+	---! REMOVED METHOD: PUBLIC(-) java.util.Map<java.lang.String,java.lang.String> dataset()
+	---! REMOVED METHOD: PUBLIC(-) int deduplicate(org.jsoup.parser.ParseSettings)
+	---! REMOVED METHOD: PUBLIC(-) boolean equals(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String get(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getIgnoreCase(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasDeclaredValueForKey(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasDeclaredValueForKeyIgnoreCase(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) int hashCode()
+	---! REMOVED METHOD: PUBLIC(-) boolean hasKey(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasKeyIgnoreCase(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String html()
+	---! REMOVED METHOD: PUBLIC(-) boolean isEmpty()
+	---! REMOVED METHOD: PUBLIC(-) java.util.Iterator<org.jsoup.nodes.Attribute> iterator()
+	---! REMOVED METHOD: PUBLIC(-) void normalize()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes put(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes put(java.lang.String, boolean)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes put(org.jsoup.nodes.Attribute)
+	---! REMOVED METHOD: PUBLIC(-) void remove(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) void removeIgnoreCase(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) int size()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range$AttributeRange sourceRange(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes sourceRange(java.lang.String, org.jsoup.nodes.Range$AttributeRange)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Object userData(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes userData(java.lang.String, java.lang.Object)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.CDataNode  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.TextNode
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) CDataNode(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.CDataNode clone()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String text()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.Comment  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.LeafNode
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Comment(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.XmlDeclaration asXmlDeclaration()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Comment clone()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getData()
+	---! REMOVED METHOD: PUBLIC(-) boolean isXmlDeclaration()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Comment setData(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.DataNode  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.LeafNode
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) DataNode(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.DataNode clone()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getWholeData()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.DataNode setWholeData(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.Document  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.Element
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Document(java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Document(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element body()
+	---! REMOVED METHOD: PUBLIC(-) void charset(java.nio.charset.Charset)
+	---! REMOVED METHOD: PUBLIC(-) java.nio.charset.Charset charset()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document clone()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.Connection connection()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document connection(org.jsoup.Connection)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element createElement(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document createShell(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.DocumentType documentType()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.FormElement expectForm(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.FormElement> forms()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element head()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String location()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String outerHtml()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings outputSettings()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document outputSettings(org.jsoup.nodes.Document$OutputSettings)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Parser parser()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document parser(org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$QuirksMode quirksMode()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document quirksMode(org.jsoup.nodes.Document$QuirksMode)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document shallowClone()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element text(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String title()
+	---! REMOVED METHOD: PUBLIC(-) void title(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) void updateMetaCharsetElement(boolean)
+	---! REMOVED METHOD: PUBLIC(-) boolean updateMetaCharsetElement()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document$OutputSettings  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Document$OutputSettings()
+	---! REMOVED METHOD: PUBLIC(-) java.nio.charset.Charset charset()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings charset(java.nio.charset.Charset)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings charset(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings clone()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Entities$EscapeMode escapeMode()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings escapeMode(org.jsoup.nodes.Entities$EscapeMode)
+	---! REMOVED METHOD: PUBLIC(-) int indentAmount()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings indentAmount(int)
+	---! REMOVED METHOD: PUBLIC(-) int maxPaddingWidth()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings maxPaddingWidth(int)
+	---! REMOVED METHOD: PUBLIC(-) boolean outline()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings outline(boolean)
+	---! REMOVED METHOD: PUBLIC(-) boolean prettyPrint()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings prettyPrint(boolean)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings$Syntax syntax()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document$OutputSettings syntax(org.jsoup.nodes.Document$OutputSettings$Syntax)
+---! REMOVED ENUM: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Document$OutputSettings$Syntax  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.constant.Constable
+	---! REMOVED INTERFACE: java.lang.Comparable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.Enum
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Document$OutputSettings$Syntax xml
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Document$OutputSettings$Syntax html
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document$OutputSettings$Syntax valueOf(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document$OutputSettings$Syntax[] values()
+---! REMOVED ENUM: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Document$QuirksMode  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.constant.Constable
+	---! REMOVED INTERFACE: java.lang.Comparable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.Enum
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Document$QuirksMode quirks
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Document$QuirksMode noQuirks
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Document$QuirksMode limitedQuirks
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document$QuirksMode valueOf(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document$QuirksMode[] values()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.DocumentType  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.LeafNode
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String SYSTEM_KEY
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String PUBLIC_KEY
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) DocumentType(java.lang.String, java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String name()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String publicId()
+	---! REMOVED METHOD: PUBLIC(-) void setPubSysKey(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String systemId()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.Element  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.Node
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Element(org.jsoup.parser.Tag, java.lang.String, org.jsoup.nodes.Attributes)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Element(org.jsoup.parser.Tag, java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Element(java.lang.String, java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Element(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element addClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element after(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element after(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element append(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element appendChild(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element appendChildren(java.util.Collection<? extends org.jsoup.nodes.Node>)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element appendElement(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element appendElement(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element appendText(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element appendTo(org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element attr(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element attr(java.lang.String, boolean)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attribute attribute(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes attributes()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String baseUri()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element before(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element before(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element child(int)
+	---! REMOVED METHOD: PUBLIC(-) int childNodeSize()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements children()
+	---! REMOVED METHOD: PUBLIC(-) int childrenSize()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String className()
+	---! REMOVED METHOD: PUBLIC(-) java.util.Set<java.lang.String> classNames()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element classNames(java.util.Set<java.lang.String>)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element clearAttributes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element clone()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element closest(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element closest(org.jsoup.select.Evaluator)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String cssSelector()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String data()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.DataNode> dataNodes()
+	---! REMOVED METHOD: PUBLIC(-) java.util.Map<java.lang.String,java.lang.String> dataset()
+	---! REMOVED METHOD: PROTECTED(-) org.jsoup.nodes.Element doClone(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PROTECTED(-) void doSetBaseUri(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean elementIs(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) int elementSiblingIndex()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element empty()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range endSourceRange()
+	---! REMOVED METHOD: PROTECTED(-) java.util.List<org.jsoup.nodes.Node> ensureChildNodes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element expectFirst(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element filter(org.jsoup.select.NodeFilter)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element firstElementChild()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element firstElementSibling()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element forEachNode(java.util.function.Consumer<? super org.jsoup.nodes.Node>)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getAllElements()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element getElementById(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttribute(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeStarting(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeValue(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeValueContaining(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeValueEnding(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String, java.util.regex.Pattern)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeValueMatching(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeValueNot(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByAttributeValueStarting(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByIndexEquals(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByIndexGreaterThan(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByIndexLessThan(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsByTag(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsContainingOwnText(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsContainingText(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsMatchingOwnText(java.util.regex.Pattern)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsMatchingOwnText(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsMatchingText(java.util.regex.Pattern)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements getElementsMatchingText(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) boolean hasAttributes()
+	---! REMOVED METHOD: PROTECTED(-) boolean hasChildNodes()
+	---! REMOVED METHOD: PUBLIC(-) boolean hasClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasText()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String html()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Appendable html(java.lang.Appendable)
+		GENERIC TEMPLATES: --- T:java.lang.Appendable
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element html(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String id()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element id(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element insertChildren(int, java.util.Collection<? extends org.jsoup.nodes.Node>)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element insertChildren(int, org.jsoup.nodes.Node[])
+	---! REMOVED METHOD: PUBLIC(-) boolean is(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean is(org.jsoup.select.Evaluator)
+	---! REMOVED METHOD: PUBLIC(-) boolean isBlock()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element lastElementChild()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element lastElementSibling()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element nextElementSibling()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements nextElementSiblings()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String normalName()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String ownText()
+	---! REMOVED METHOD: PUBLIC(-) FINAL(-) org.jsoup.nodes.Element parent()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements parents()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element prepend(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element prependChild(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element prependChildren(java.util.Collection<? extends org.jsoup.nodes.Node>)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element prependElement(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element prependElement(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element prependText(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element previousElementSibling()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements previousElementSiblings()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element removeAttr(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element removeClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element root()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements select(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements select(org.jsoup.select.Evaluator)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element selectFirst(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element selectFirst(org.jsoup.select.Evaluator)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements selectXpath(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<T> selectXpath(java.lang.String, java.lang.Class<T>)
+		GENERIC TEMPLATES: --- T:org.jsoup.nodes.Node
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element shallowClone()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements siblingElements()
+	---! REMOVED METHOD: PUBLIC(-) java.util.stream.Stream<org.jsoup.nodes.Element> stream()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Tag tag()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String tagName()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element tagName(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element tagName(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String text()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element text(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.TextNode> textNodes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element toggleClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element traverse(org.jsoup.select.NodeVisitor)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String val()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element val(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String wholeOwnText()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String wholeText()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element wrap(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.Entities  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) int codepointsForName(java.lang.String, int[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String escape(java.lang.String, org.jsoup.nodes.Document$OutputSettings)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String escape(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String findPrefix(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String getByName(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isBaseNamedEntity(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isNamedEntity(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String unescape(java.lang.String)
+---! REMOVED ENUM: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Entities$EscapeMode  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.constant.Constable
+	---! REMOVED INTERFACE: java.lang.Comparable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.Enum
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Entities$EscapeMode extended
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Entities$EscapeMode xhtml
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.nodes.Entities$EscapeMode base
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Entities$EscapeMode valueOf(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Entities$EscapeMode[] values()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.FormElement  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.Element
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) FormElement(org.jsoup.parser.Tag, java.lang.String, org.jsoup.nodes.Attributes)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.FormElement addElement(org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.FormElement clone()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements elements()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.Connection$KeyVal> formData()
+	---! REMOVED METHOD: PROTECTED(-) void removeChild(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.Connection submit()
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) org.jsoup.nodes.LeafNode  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.Node
+	---! REMOVED CONSTRUCTOR: PROTECTED(-) LeafNode(java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) LeafNode()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String absUrl(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String attr(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node attr(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) FINAL(-) org.jsoup.nodes.Attributes attributes()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String baseUri()
+	---! REMOVED METHOD: PUBLIC(-) int childNodeSize()
+	---! REMOVED METHOD: PROTECTED(-) org.jsoup.nodes.LeafNode doClone(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PROTECTED(-) void doSetBaseUri(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node empty()
+	---! REMOVED METHOD: PROTECTED(-) java.util.List<org.jsoup.nodes.Node> ensureChildNodes()
+	---! REMOVED METHOD: PUBLIC(-) boolean hasAttr(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) FINAL(-) boolean hasAttributes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node removeAttr(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) org.jsoup.nodes.Node  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PROTECTED(-) Node()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String absUrl(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) void addChildren(org.jsoup.nodes.Node[])
+	---! REMOVED METHOD: PROTECTED(-) void addChildren(int, org.jsoup.nodes.Node[])
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node after(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node after(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String attr(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node attr(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.nodes.Attributes attributes()
+	---! REMOVED METHOD: PUBLIC(-) int attributesSize()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String baseUri()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node before(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node before(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node childNode(int)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.Node> childNodes()
+	---! REMOVED METHOD: PROTECTED(-) org.jsoup.nodes.Node[] childNodesAsArray()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.Node> childNodesCopy()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) int childNodeSize()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node clearAttributes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node clone()
+	---! REMOVED METHOD: PROTECTED(-) org.jsoup.nodes.Node doClone(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PROTECTED(-) ABSTRACT(-) void doSetBaseUri(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.nodes.Node empty()
+	---! REMOVED METHOD: PROTECTED(-) ABSTRACT(-) java.util.List<org.jsoup.nodes.Node> ensureChildNodes()
+	---! REMOVED METHOD: PUBLIC(-) boolean equals(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node filter(org.jsoup.select.NodeFilter)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node firstChild()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node forEachNode(java.util.function.Consumer<? super org.jsoup.nodes.Node>)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasAttr(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) ABSTRACT(-) boolean hasAttributes()
+	---! REMOVED METHOD: PUBLIC(-) int hashCode()
+	---! REMOVED METHOD: PUBLIC(-) boolean hasParent()
+	---! REMOVED METHOD: PUBLIC(-) boolean hasSameValue(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Appendable html(java.lang.Appendable)
+		GENERIC TEMPLATES: --- T:java.lang.Appendable
+	---! REMOVED METHOD: PROTECTED(-) void indent(java.lang.Appendable, int, org.jsoup.nodes.Document$OutputSettings)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node lastChild()
+	---! REMOVED METHOD: PUBLIC(-) boolean nameIs(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node nextSibling()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) java.util.stream.Stream<org.jsoup.nodes.Node> nodeStream()
+	---! REMOVED METHOD: PUBLIC(-) java.util.stream.Stream<T> nodeStream(java.lang.Class<T>)
+		GENERIC TEMPLATES: --- T:org.jsoup.nodes.Node
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String normalName()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String outerHtml()
+	---! REMOVED METHOD: PROTECTED(-) void outerHtml(java.lang.Appendable)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document ownerDocument()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node parent()
+	---! REMOVED METHOD: PUBLIC(-) boolean parentElementIs(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean parentNameIs(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) FINAL(-) org.jsoup.nodes.Node parentNode()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node previousSibling()
+	---! REMOVED METHOD: PUBLIC(-) void remove()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node removeAttr(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) void removeChild(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PROTECTED(-) void reparentChild(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PROTECTED(-) void replaceChild(org.jsoup.nodes.Node, org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) void replaceWith(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node root()
+	---! REMOVED METHOD: PUBLIC(-) void setBaseUri(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) void setParentNode(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PROTECTED(-) void setSiblingIndex(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node shallowClone()
+	---! REMOVED METHOD: PUBLIC(-) int siblingIndex()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.Node> siblingNodes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range sourceRange()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node traverse(org.jsoup.select.NodeVisitor)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node unwrap()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node wrap(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.NodeIterator  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	GENERIC TEMPLATES: --- T:org.jsoup.nodes.Node
+	---! REMOVED INTERFACE: java.util.Iterator
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) NodeIterator(org.jsoup.nodes.Node, java.lang.Class<T>)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.NodeIterator<org.jsoup.nodes.Node> from(org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasNext()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Node next()
+	---! REMOVED METHOD: PUBLIC(-) void remove()
+	---! REMOVED METHOD: PUBLIC(-) void restart(org.jsoup.nodes.Node)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.PseudoTextElement  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.Element
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) PseudoTextElement(org.jsoup.parser.Tag, java.lang.String, org.jsoup.nodes.Attributes)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.Range  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Range(org.jsoup.nodes.Range$Position, org.jsoup.nodes.Range$Position)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range$Position end()
+	---! REMOVED METHOD: PUBLIC(-) int endPos()
+	---! REMOVED METHOD: PUBLIC(-) boolean equals(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) int hashCode()
+	---! REMOVED METHOD: PUBLIC(-) boolean isImplicit()
+	---! REMOVED METHOD: PUBLIC(-) boolean isTracked()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range$Position start()
+	---! REMOVED METHOD: PUBLIC(-) int startPos()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.nodes.Range$AttributeRange  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Range$AttributeRange(org.jsoup.nodes.Range, org.jsoup.nodes.Range)
+	---! REMOVED METHOD: PUBLIC(-) boolean equals(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) int hashCode()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range nameRange()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Range valueRange()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.nodes.Range$Position  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Range$Position(int, int, int)
+	---! REMOVED METHOD: PUBLIC(-) int columnNumber()
+	---! REMOVED METHOD: PUBLIC(-) boolean equals(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) int hashCode()
+	---! REMOVED METHOD: PUBLIC(-) boolean isTracked()
+	---! REMOVED METHOD: PUBLIC(-) int lineNumber()
+	---! REMOVED METHOD: PUBLIC(-) int pos()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.TextNode  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.LeafNode
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) TextNode(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.TextNode clone()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.TextNode createFromEncoded(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getWholeText()
+	---! REMOVED METHOD: PUBLIC(-) boolean isBlank()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.TextNode splitText(int)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String text()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.TextNode text(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.nodes.XmlDeclaration  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: org.jsoup.nodes.LeafNode
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) XmlDeclaration(java.lang.String, boolean)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.XmlDeclaration clone()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getWholeDeclaration()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String name()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String nodeName()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.parser.CharacterReader  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) CharacterReader(java.io.Reader, int)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) CharacterReader(java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) CharacterReader(java.io.Reader)
+	---! REMOVED METHOD: PUBLIC(-) void advance()
+	---! REMOVED METHOD: PUBLIC(-) void close()
+	---! REMOVED METHOD: PUBLIC(-) int columnNumber()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeTo(char)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeToAny(char[])
+	---! REMOVED METHOD: PUBLIC(-) char current()
+	---! REMOVED METHOD: PUBLIC(-) boolean isEmpty()
+	---! REMOVED METHOD: PUBLIC(-) boolean isTrackNewlines()
+	---! REMOVED METHOD: PUBLIC(-) int lineNumber()
+	---! REMOVED METHOD: PUBLIC(-) int pos()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) void trackNewlines(boolean)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.HtmlTreeBuilder  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.parser.TreeBuilder
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) int MaxScopeSearchDepth
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) HtmlTreeBuilder()
+	---! REMOVED METHOD: PROTECTED(-) void initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PROTECTED(-) boolean isContentForTagData(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) boolean process(org.jsoup.parser.Token)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.ParseError  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getCursorPos()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getErrorMessage()
+	---! REMOVED METHOD: PUBLIC(-) int getPosition()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.ParseErrorList  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.util.RandomAccess
+	---! REMOVED INTERFACE: java.util.List
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED INTERFACE: java.util.Collection
+	---! REMOVED INTERFACE: java.util.SequencedCollection
+	---! REMOVED INTERFACE: java.lang.Iterable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.util.ArrayList
+	---! REMOVED METHOD: PUBLIC(-) java.lang.Object clone()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.ParseErrorList noTracking()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.ParseErrorList tracking(int)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.Parser  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String NamespaceHtml
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String NamespaceMathml
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String NamespaceXml
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) java.lang.String NamespaceSvg
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Parser(org.jsoup.parser.TreeBuilder)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String defaultNamespace()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.ParseErrorList getErrors()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.TreeBuilder getTreeBuilder()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.Parser htmlParser()
+	---! REMOVED METHOD: PUBLIC(-) boolean isContentForTagData(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean isTrackErrors()
+	---! REMOVED METHOD: PUBLIC(-) boolean isTrackPosition()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Parser newInstance()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parse(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Document parseBodyFragment(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.List<org.jsoup.nodes.Node> parseFragment(java.lang.String, org.jsoup.nodes.Element, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.List<org.jsoup.nodes.Node> parseFragment(java.lang.String, org.jsoup.nodes.Element, java.lang.String, org.jsoup.parser.ParseErrorList)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.Node> parseFragmentInput(java.lang.String, org.jsoup.nodes.Element, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document parseInput(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document parseInput(java.io.Reader, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.util.List<org.jsoup.nodes.Node> parseXmlFragment(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Parser settings(org.jsoup.parser.ParseSettings)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.ParseSettings settings()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Parser setTrackErrors(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Parser setTrackPosition(boolean)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.Parser setTreeBuilder(org.jsoup.parser.TreeBuilder)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String unescapeEntities(java.lang.String, boolean)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.Parser xmlParser()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.ParseSettings  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.ParseSettings preserveCase
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.ParseSettings htmlDefault
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) ParseSettings(boolean, boolean)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String normalizeAttribute(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String normalizeTag(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean preserveAttributeCase()
+	---! REMOVED METHOD: PUBLIC(-) boolean preserveTagCase()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.StreamParser  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.io.Closeable
+	---! REMOVED INTERFACE: java.lang.AutoCloseable
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) StreamParser(org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PUBLIC(-) void close()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document complete()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.Node> completeFragment()
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document document()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element expectFirst(java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element expectNext(java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) java.util.Iterator<org.jsoup.nodes.Element> iterator()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.StreamParser parse(java.io.Reader, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.StreamParser parse(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.StreamParser parseFragment(java.io.Reader, org.jsoup.nodes.Element, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.StreamParser parseFragment(java.lang.String, org.jsoup.nodes.Element, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element selectFirst(java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element selectFirst(org.jsoup.select.Evaluator)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element selectNext(java.lang.String)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element selectNext(org.jsoup.select.Evaluator)
+		---  REMOVED EXCEPTION: java.io.IOException
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.parser.StreamParser stop()
+	---! REMOVED METHOD: PUBLIC(-) java.util.stream.Stream<org.jsoup.nodes.Element> stream()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.Tag  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PROTECTED(-) org.jsoup.parser.Tag clone()
+	---! REMOVED METHOD: PUBLIC(-) boolean equals(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) boolean formatAsBlock()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getName()
+	---! REMOVED METHOD: PUBLIC(-) int hashCode()
+	---! REMOVED METHOD: PUBLIC(-) boolean isBlock()
+	---! REMOVED METHOD: PUBLIC(-) boolean isEmpty()
+	---! REMOVED METHOD: PUBLIC(-) boolean isFormListed()
+	---! REMOVED METHOD: PUBLIC(-) boolean isFormSubmittable()
+	---! REMOVED METHOD: PUBLIC(-) boolean isInline()
+	---! REMOVED METHOD: PUBLIC(-) boolean isKnownTag()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) boolean isKnownTag(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean isSelfClosing()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String namespace()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String normalName()
+	---! REMOVED METHOD: PUBLIC(-) boolean preserveWhitespace()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.Tag valueOf(java.lang.String, java.lang.String, org.jsoup.parser.ParseSettings)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.Tag valueOf(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.Tag valueOf(java.lang.String, org.jsoup.parser.ParseSettings)
+---! REMOVED ENUM: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.Token$TokenType  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.constant.Constable
+	---! REMOVED INTERFACE: java.lang.Comparable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.Enum
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.Token$TokenType Comment
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.Token$TokenType EndTag
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.Token$TokenType Character
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.Token$TokenType Doctype
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.Token$TokenType EOF
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.parser.Token$TokenType StartTag
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.Token$TokenType valueOf(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.parser.Token$TokenType[] values()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.TokenQueue  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) TokenQueue(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) void addFirst(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) void advance()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String chompBalanced(char, char)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String chompTo(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String chompToIgnoreCase(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) char consume()
+	---! REMOVED METHOD: PUBLIC(-) void consume(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeCssIdentifier()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeElementSelector()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeTo(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeToAny(java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeToIgnoreCase(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean consumeWhitespace()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String consumeWord()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String escapeCssIdentifier(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean isEmpty()
+	---! REMOVED METHOD: PUBLIC(-) boolean matchChomp(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean matchesAny(java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) boolean matchesAny(char[])
+	---! REMOVED METHOD: PUBLIC(-) boolean matchesWhitespace()
+	---! REMOVED METHOD: PUBLIC(-) boolean matchesWord()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String remainder()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) java.lang.String unescape(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.parser.XmlTreeBuilder  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.parser.TreeBuilder
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) XmlTreeBuilder()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String defaultNamespace()
+	---! REMOVED METHOD: PROTECTED(-) void initialiseParse(java.io.Reader, java.lang.String, org.jsoup.parser.Parser)
+	---! REMOVED METHOD: PROTECTED(-) void popStackToClose(org.jsoup.parser.Token$EndTag)
+	---! REMOVED METHOD: PROTECTED(-) boolean process(org.jsoup.parser.Token)
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) org.jsoup.Progress  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	GENERIC TEMPLATES: --- ProgressContext:java.lang.Object
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) void onProgress(int, int, float, java.lang.Object)
+	---  REMOVED ANNOTATION: java.lang.FunctionalInterface
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.safety.Cleaner  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Cleaner(org.jsoup.safety.Safelist)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Document clean(org.jsoup.nodes.Document)
+	---! REMOVED METHOD: PUBLIC(-) boolean isValid(org.jsoup.nodes.Document)
+	---! REMOVED METHOD: PUBLIC(-) boolean isValidBodyHtml(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.safety.Safelist  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Safelist()
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Safelist(org.jsoup.safety.Safelist)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist addAttributes(java.lang.String, java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist addEnforcedAttribute(java.lang.String, java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist addProtocols(java.lang.String, java.lang.String, java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist addTags(java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.safety.Safelist basic()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.safety.Safelist basicWithImages()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Attributes getEnforcedAttributes(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean isSafeAttribute(java.lang.String, org.jsoup.nodes.Element, org.jsoup.nodes.Attribute)
+	---! REMOVED METHOD: PUBLIC(-) boolean isSafeTag(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.safety.Safelist none()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist preserveRelativeLinks(boolean)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.safety.Safelist relaxed()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist removeAttributes(java.lang.String, java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist removeEnforcedAttribute(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist removeProtocols(java.lang.String, java.lang.String, java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.safety.Safelist removeTags(java.lang.String[])
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.safety.Safelist simpleText()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.select.Collector  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.Elements collect(org.jsoup.select.Evaluator, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Element findFirst(org.jsoup.select.Evaluator, org.jsoup.nodes.Element)
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) org.jsoup.select.CombiningEvaluator  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PROTECTED(-) void reset()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.CombiningEvaluator$And  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.CombiningEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) CombiningEvaluator$And(java.util.Collection<org.jsoup.select.Evaluator>)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.CombiningEvaluator$Or  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.CombiningEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) CombiningEvaluator$Or(java.util.Collection<org.jsoup.select.Evaluator>)
+	---! REMOVED METHOD: PUBLIC(-) void add(org.jsoup.select.Evaluator)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.select.Elements  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.util.RandomAccess
+	---! REMOVED INTERFACE: java.util.List
+	---! REMOVED INTERFACE: java.lang.Cloneable
+	---! REMOVED INTERFACE: java.util.Collection
+	---! REMOVED INTERFACE: java.util.SequencedCollection
+	---! REMOVED INTERFACE: java.lang.Iterable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.util.ArrayList
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Elements()
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Elements(java.util.List<org.jsoup.nodes.Element>)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Elements(int)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Elements(java.util.Collection<org.jsoup.nodes.Element>)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Elements(org.jsoup.nodes.Element[])
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements addClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements after(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements append(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String attr(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements attr(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements before(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) void clear()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements clone()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.Comment> comments()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.DataNode> dataNodes()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<java.lang.String> eachAttr(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<java.lang.String> eachText()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements empty()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements eq(int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements filter(org.jsoup.select.NodeFilter)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element first()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.FormElement> forms()
+	---! REMOVED METHOD: PUBLIC(-) boolean hasAttr(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean hasText()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String html()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements html(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean is(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element last()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements next()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements next(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements nextAll()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements nextAll(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements not(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String outerHtml()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements parents()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements prepend(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements prev()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements prev(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements prevAll()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements prevAll(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements remove()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element remove(int)
+	---! REMOVED METHOD: PUBLIC(-) boolean remove(java.lang.Object)
+	---! REMOVED METHOD: PUBLIC(-) boolean removeAll(java.util.Collection<?>)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements removeAttr(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements removeClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean removeIf(java.util.function.Predicate<? super org.jsoup.nodes.Element>)
+	---! REMOVED METHOD: PUBLIC(-) void replaceAll(java.util.function.UnaryOperator<org.jsoup.nodes.Element>)
+	---! REMOVED METHOD: PUBLIC(-) boolean retainAll(java.util.Collection<?>)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements select(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.nodes.Element set(int, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements tagName(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String text()
+	---! REMOVED METHOD: PUBLIC(-) java.util.List<org.jsoup.nodes.TextNode> textNodes()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements toggleClass(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements traverse(org.jsoup.select.NodeVisitor)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements unwrap()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String val()
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements val(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.Elements wrap(java.lang.String)
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) org.jsoup.select.Evaluator  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PROTECTED(-) Evaluator()
+	---! REMOVED METHOD: PUBLIC(-) java.util.function.Predicate<org.jsoup.nodes.Element> asPredicate(org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PROTECTED(-) void reset()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AllElements  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AllElements()
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$Attribute  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$Attribute(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) STATIC(-) org.jsoup.select.Evaluator$AttributeKeyPair  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeKeyPair(java.lang.String, java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeKeyPair(java.lang.String, java.lang.String, boolean)
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AttributeStarting  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeStarting(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AttributeWithValue  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$AttributeKeyPair
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeWithValue(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AttributeWithValueContaining  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$AttributeKeyPair
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeWithValueContaining(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AttributeWithValueEnding  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$AttributeKeyPair
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeWithValueEnding(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AttributeWithValueMatching  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeWithValueMatching(java.lang.String, java.util.regex.Pattern)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AttributeWithValueNot  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$AttributeKeyPair
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeWithValueNot(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$AttributeWithValueStarting  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$AttributeKeyPair
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$AttributeWithValueStarting(java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$Class  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$Class(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$ContainsData  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$ContainsData(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$ContainsOwnText  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$ContainsOwnText(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$ContainsText  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$ContainsText(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$ContainsWholeOwnText  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$ContainsWholeOwnText(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$ContainsWholeText  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$ContainsWholeText(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) STATIC(-) org.jsoup.select.Evaluator$CssNthEvaluator  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED FIELD: PROTECTED(-) FINAL(-) int a
+	---! REMOVED FIELD: PROTECTED(-) FINAL(-) int b
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$CssNthEvaluator(int)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$CssNthEvaluator(int, int)
+	---! REMOVED METHOD: PROTECTED(-) ABSTRACT(-) int calculatePosition(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PROTECTED(-) ABSTRACT(-) java.lang.String getPseudoClass()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$Id  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$Id(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IndexEquals  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$IndexEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IndexEquals(int)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) ABSTRACT(-) STATIC(-) org.jsoup.select.Evaluator$IndexEvaluator  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IndexEvaluator(int)
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IndexGreaterThan  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$IndexEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IndexGreaterThan(int)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IndexLessThan  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$IndexEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IndexLessThan(int)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsEmpty  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsEmpty()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsFirstChild  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsFirstChild()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsFirstOfType  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$IsNthOfType
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsFirstOfType()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsLastChild  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsLastChild()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsLastOfType  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$IsNthLastOfType
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsLastOfType()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsNthChild  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$CssNthEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsNthChild(int, int)
+	---! REMOVED METHOD: PROTECTED(-) int calculatePosition(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PROTECTED(-) java.lang.String getPseudoClass()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsNthLastChild  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$CssNthEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsNthLastChild(int, int)
+	---! REMOVED METHOD: PROTECTED(-) int calculatePosition(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PROTECTED(-) java.lang.String getPseudoClass()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.select.Evaluator$IsNthLastOfType  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$CssNthEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsNthLastOfType(int, int)
+	---! REMOVED METHOD: PROTECTED(-) int calculatePosition(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PROTECTED(-) java.lang.String getPseudoClass()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.select.Evaluator$IsNthOfType  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator$CssNthEvaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsNthOfType(int, int)
+	---! REMOVED METHOD: PROTECTED(-) int calculatePosition(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PROTECTED(-) java.lang.String getPseudoClass()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsOnlyChild  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsOnlyChild()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsOnlyOfType  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsOnlyOfType()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$IsRoot  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$IsRoot()
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$Matches  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$Matches(java.util.regex.Pattern)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$MatchesOwn  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$MatchesOwn(java.util.regex.Pattern)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$MatchesWholeOwnText  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$MatchesWholeOwnText(java.util.regex.Pattern)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$MatchesWholeText  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$MatchesWholeText(java.util.regex.Pattern)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$MatchText  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$MatchText()
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$Tag  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$Tag(java.lang.String)
+	---! REMOVED METHOD: PROTECTED(-) int cost()
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$TagEndsWith  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$TagEndsWith(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.Evaluator$TagStartsWith  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: org.jsoup.select.Evaluator
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Evaluator$TagStartsWith(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) boolean matches(org.jsoup.nodes.Element, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) org.jsoup.select.NodeFilter  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) org.jsoup.select.NodeFilter$FilterResult head(org.jsoup.nodes.Node, int)
+	---! REMOVED METHOD: PUBLIC(-) org.jsoup.select.NodeFilter$FilterResult tail(org.jsoup.nodes.Node, int)
+---! REMOVED ENUM: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.NodeFilter$FilterResult  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.lang.constant.Constable
+	---! REMOVED INTERFACE: java.lang.Comparable
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.Enum
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.NodeFilter$FilterResult CONTINUE
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.NodeFilter$FilterResult SKIP_ENTIRELY
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.NodeFilter$FilterResult STOP
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.NodeFilter$FilterResult SKIP_CHILDREN
+	---! REMOVED FIELD: PUBLIC(-) STATIC(-) FINAL(-) org.jsoup.select.NodeFilter$FilterResult REMOVE
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.NodeFilter$FilterResult valueOf(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.NodeFilter$FilterResult[] values()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.select.NodeTraversor  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) NodeTraversor()
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.NodeFilter$FilterResult filter(org.jsoup.select.NodeFilter, org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void filter(org.jsoup.select.NodeFilter, org.jsoup.select.Elements)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void traverse(org.jsoup.select.NodeVisitor, org.jsoup.nodes.Node)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) void traverse(org.jsoup.select.NodeVisitor, org.jsoup.select.Elements)
+---! REMOVED INTERFACE: PUBLIC(-) ABSTRACT(-) org.jsoup.select.NodeVisitor  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) ABSTRACT(-) void head(org.jsoup.nodes.Node, int)
+	---! REMOVED METHOD: PUBLIC(-) void tail(org.jsoup.nodes.Node, int)
+	---  REMOVED ANNOTATION: java.lang.FunctionalInterface
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.select.QueryParser  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.Evaluator parse(java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.select.Selector  (not serializable)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED SUPERCLASS: java.lang.Object
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.Elements select(java.lang.String, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.Elements select(org.jsoup.select.Evaluator, org.jsoup.nodes.Element)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.select.Elements select(java.lang.String, java.lang.Iterable<org.jsoup.nodes.Element>)
+	---! REMOVED METHOD: PUBLIC(-) STATIC(-) org.jsoup.nodes.Element selectFirst(java.lang.String, org.jsoup.nodes.Element)
+---! REMOVED CLASS: PUBLIC(-) STATIC(-) org.jsoup.select.Selector$SelectorParseException  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.IllegalStateException
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Selector$SelectorParseException(java.lang.Throwable, java.lang.String, java.lang.Object[])
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Selector$SelectorParseException(java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) Selector$SelectorParseException(java.lang.String, java.lang.Object[])
+---! REMOVED CLASS: PUBLIC(-) FINAL(-) org.jsoup.SerializationException  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.lang.RuntimeException
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) SerializationException()
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) SerializationException(java.lang.String, java.lang.Throwable)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) SerializationException(java.lang.String)
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) SerializationException(java.lang.Throwable)
+---! REMOVED CLASS: PUBLIC(-) org.jsoup.UnsupportedMimeTypeException  (class removed)
+	---  CLASS FILE FORMAT VERSION: n.a. <- 52.0
+	---! REMOVED INTERFACE: java.io.Serializable
+	---! REMOVED SUPERCLASS: java.io.IOException
+	---! REMOVED CONSTRUCTOR: PUBLIC(-) UnsupportedMimeTypeException(java.lang.String, java.lang.String, java.lang.String)
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getMimeType()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String getUrl()
+	---! REMOVED METHOD: PUBLIC(-) java.lang.String toString()
+
+Semantic versioning suggestion: 1.0.0
